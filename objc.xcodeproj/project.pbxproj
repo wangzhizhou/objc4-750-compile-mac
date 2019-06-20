@@ -121,6 +121,104 @@
 		87BB4EA70EC39854005D08E1 /* objc-probes.d in Sources */ = {isa = PBXBuildFile; fileRef = 87BB4E900EC39633005D08E1 /* objc-probes.d */; };
 		9672F7EE14D5F488007CEC96 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
 		E8923DA5116AB2820071B552 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
+		F322016D22BA75370001D8C5 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = F322016C22BA75370001D8C5 /* Test.m */; };
+		F322017122BA7CD80001D8C5 /* Test+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F322017022BA7CD80001D8C5 /* Test+Category.m */; };
+		F322024C22BB009A0001D8C5 /* ObjectiveC.apinotes in Headers */ = {isa = PBXBuildFile; fileRef = 83A4AEDD1EA08C5700ACADDE /* ObjectiveC.apinotes */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322024D22BB009A0001D8C5 /* objc-locks.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A95050202BAA9A00D7D56F /* objc-locks.h */; };
+		F322024E22BB009A0001D8C5 /* module.modulemap in Headers */ = {isa = PBXBuildFile; fileRef = 83A4AED71EA06D9D00ACADDE /* module.modulemap */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322024F22BB009A0001D8C5 /* hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 830F2A970D738DC200392440 /* hashtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025022BB009A0001D8C5 /* hashtable2.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485B70D6D687300CEA253 /* hashtable2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025122BB009A0001D8C5 /* List.h in Headers */ = {isa = PBXBuildFile; fileRef = 838486240D6D68F000CEA253 /* List.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025222BB009A0001D8C5 /* reason.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC309321C657C20027D1EA /* reason.h */; };
+		F322025322BB009A0001D8C5 /* maptable.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485BB0D6D687300CEA253 /* maptable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F322025422BB009A0001D8C5 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485BD0D6D687300CEA253 /* message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025522BB009A0001D8C5 /* objc-abi.h in Headers */ = {isa = PBXBuildFile; fileRef = 834EC0A311614167009B2563 /* objc-abi.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F322025622BB009A0001D8C5 /* objc-api.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485C80D6D68A200CEA253 /* objc-api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025722BB009A0001D8C5 /* objc-auto.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485C90D6D68A200CEA253 /* objc-auto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025822BB009A0001D8C5 /* tsd_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC309E21C6639C0027D1EA /* tsd_private.h */; };
+		F322025922BB009A0001D8C5 /* objc-class.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485CD0D6D68A200CEA253 /* objc-class.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025A22BB009A0001D8C5 /* objc-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485CF0D6D68A200CEA253 /* objc-config.h */; };
+		F322025B22BB009A0001D8C5 /* objc-exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485D10D6D68A200CEA253 /* objc-exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322025C22BB009A0001D8C5 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B8691621C67E9300192B32 /* Block_private.h */; };
+		F322025D22BB009A0001D8C5 /* pthread_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC30AE21C66C020027D1EA /* pthread_machdep.h */; };
+		F322025E22BB009A0001D8C5 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC309621C659A60027D1EA /* dyld_priv.h */; };
+		F322025F22BB009A0001D8C5 /* objc-file-old.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE02E50FCCB24D00661494 /* objc-file-old.h */; };
+		F322026022BB009A0001D8C5 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B8691821C67F5500192B32 /* objc-shared-cache.h */; };
+		F322026122BB009A0001D8C5 /* objc-file.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE02E60FCCB24D00661494 /* objc-file.h */; };
+		F322026222BB009A0001D8C5 /* objc-locks-new.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A9504E202BAA0300D7D56F /* objc-locks-new.h */; };
+		F322026322BB009A0001D8C5 /* objc-gdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 834266D70E665A8B002E4DA2 /* objc-gdb.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F322026422BB009A0001D8C5 /* objc-initialize.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485D40D6D68A200CEA253 /* objc-initialize.h */; };
+		F322026522BB009A0001D8C5 /* objc-object.h in Headers */ = {isa = PBXBuildFile; fileRef = 7593EC57202248DF0046AB96 /* objc-object.h */; };
+		F322026622BB009A0001D8C5 /* objc-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 83112ED30F00599600A5FBAF /* objc-internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F322026722BB009A0001D8C5 /* objc-load.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485D70D6D68A200CEA253 /* objc-load.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322026822BB009A0001D8C5 /* spinlock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC30A621C665980027D1EA /* spinlock_private.h */; };
+		F322026922BB009A0001D8C5 /* objc-loadmethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485D90D6D68A200CEA253 /* objc-loadmethod.h */; };
+		F322026A22BB009A0001D8C5 /* objc-lockdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A95052202BAC4100D7D56F /* objc-lockdebug.h */; };
+		F322026B22BB009A0001D8C5 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B8691421C67D7800192B32 /* CrashReporterClient.h */; };
+		F322026C22BB009A0001D8C5 /* _simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 5228CE7821C684D30001A999 /* _simple.h */; };
+		F322026D22BB009A0001D8C5 /* objc-os.h in Headers */ = {isa = PBXBuildFile; fileRef = 831C85D30E10CF850066E64C /* objc-os.h */; };
+		F322026E22BB009A0001D8C5 /* objc-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485DC0D6D68A200CEA253 /* objc-private.h */; };
+		F322026F22BB009A0001D8C5 /* objc-references.h in Headers */ = {isa = PBXBuildFile; fileRef = 393CEAC50DC69E67000B69DE /* objc-references.h */; };
+		F322027022BB009A0001D8C5 /* objc-runtime-new.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485E00D6D68A200CEA253 /* objc-runtime-new.h */; };
+		F322027122BB009A0001D8C5 /* objc-runtime-old.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE02E70FCCB24D00661494 /* objc-runtime-old.h */; };
+		F322027222BB009A0001D8C5 /* objc-runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485E30D6D68A200CEA253 /* objc-runtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027322BB009A0001D8C5 /* objc-sel-set.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485E50D6D68A200CEA253 /* objc-sel-set.h */; };
+		F322027422BB009A0001D8C5 /* lock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC309921C65B4A0027D1EA /* lock_private.h */; };
+		F322027522BB009A0001D8C5 /* base_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC309B21C65F560027D1EA /* base_private.h */; };
+		F322027622BB009A0001D8C5 /* objc-sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485E90D6D68A200CEA253 /* objc-sync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027722BB009A0001D8C5 /* objc.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485EC0D6D68A200CEA253 /* objc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027822BB009A0001D8C5 /* Object.h in Headers */ = {isa = PBXBuildFile; fileRef = 838485ED0D6D68A200CEA253 /* Object.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027922BB009A0001D8C5 /* Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 838486180D6D68A800CEA253 /* Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027A22BB009A0001D8C5 /* runtime.h in Headers */ = {isa = PBXBuildFile; fileRef = 8384861A0D6D68A800CEA253 /* runtime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027B22BB009A0001D8C5 /* objc-weak.h in Headers */ = {isa = PBXBuildFile; fileRef = 39ABD71F12F0B61800D1054C /* objc-weak.h */; };
+		F322027C22BB009A0001D8C5 /* NSObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F4B52615E843B100E0926F /* NSObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027D22BB009A0001D8C5 /* NSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F4B52715E843B100E0926F /* NSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F322027E22BB009A0001D8C5 /* tsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC30A421C665360027D1EA /* tsd.h */; };
+		F322027F22BB009A0001D8C5 /* isa.h in Headers */ = {isa = PBXBuildFile; fileRef = 5246421021C68926000909D5 /* isa.h */; };
+		F322028022BB009A0001D8C5 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BC30A221C664130027D1EA /* cpu_capabilities.h */; };
+		F322028222BB009A0001D8C5 /* hashtable2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485B80D6D687300CEA253 /* hashtable2.mm */; };
+		F322028322BB009A0001D8C5 /* maptable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485BC0D6D687300CEA253 /* maptable.mm */; };
+		F322028422BB009A0001D8C5 /* objc-auto.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485CA0D6D68A200CEA253 /* objc-auto.mm */; settings = {COMPILER_FLAGS = "-fexceptions"; }; };
+		F322028522BB009A0001D8C5 /* objc-cache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485CB0D6D68A200CEA253 /* objc-cache.mm */; };
+		F322028622BB009A0001D8C5 /* objc-class-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485CC0D6D68A200CEA253 /* objc-class-old.mm */; };
+		F322028722BB009A0001D8C5 /* objc-class.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485CE0D6D68A200CEA253 /* objc-class.mm */; };
+		F322028822BB009A0001D8C5 /* objc-errors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485D00D6D68A200CEA253 /* objc-errors.mm */; };
+		F322028922BB009A0001D8C5 /* objc-exception.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485D20D6D68A200CEA253 /* objc-exception.mm */; settings = {COMPILER_FLAGS = "-fexceptions"; }; };
+		F322028A22BB009A0001D8C5 /* objc-file.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485D30D6D68A200CEA253 /* objc-file.mm */; };
+		F322028B22BB009A0001D8C5 /* objc-initialize.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485D50D6D68A200CEA253 /* objc-initialize.mm */; };
+		F322028C22BB009A0001D8C5 /* objc-layout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485D60D6D68A200CEA253 /* objc-layout.mm */; };
+		F322028D22BB009A0001D8C5 /* objc-load.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485D80D6D68A200CEA253 /* objc-load.mm */; };
+		F322028E22BB009A0001D8C5 /* objc-loadmethod.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485DA0D6D68A200CEA253 /* objc-loadmethod.mm */; };
+		F322028F22BB009A0001D8C5 /* objc-lockdebug.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485DB0D6D68A200CEA253 /* objc-lockdebug.mm */; settings = {COMPILER_FLAGS = "-Os"; }; };
+		F322029022BB009A0001D8C5 /* objc-runtime-new.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485E10D6D68A200CEA253 /* objc-runtime-new.mm */; };
+		F322029122BB009A0001D8C5 /* objc-runtime-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485E20D6D68A200CEA253 /* objc-runtime-old.mm */; };
+		F322029222BB009A0001D8C5 /* objc-runtime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485E40D6D68A200CEA253 /* objc-runtime.mm */; };
+		F322029322BB009A0001D8C5 /* objc-sel-set.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485E60D6D68A200CEA253 /* objc-sel-set.mm */; };
+		F322029422BB009A0001D8C5 /* objc-sel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485E80D6D68A200CEA253 /* objc-sel.mm */; };
+		F322029522BB009A0001D8C5 /* objc-sync.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485EA0D6D68A200CEA253 /* objc-sync.mm */; };
+		F322029622BB009A0001D8C5 /* objc-typeencoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485EB0D6D68A200CEA253 /* objc-typeencoding.mm */; };
+		F322029722BB009A0001D8C5 /* Object.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838485EE0D6D68A200CEA253 /* Object.mm */; };
+		F322029822BB009A0001D8C5 /* Protocol.mm in Sources */ = {isa = PBXBuildFile; fileRef = 838486190D6D68A800CEA253 /* Protocol.mm */; };
+		F322029922BB009A0001D8C5 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 838486230D6D68F000CEA253 /* List.m */; };
+		F322029A22BB009A0001D8C5 /* objc-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A690D737FB800392440 /* objc-msg-arm.s */; };
+		F322029B22BB009A0001D8C5 /* objc-msg-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A6A0D737FB800392440 /* objc-msg-i386.s */; };
+		F322029C22BB009A0001D8C5 /* objc-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A720D737FB800392440 /* objc-msg-x86_64.s */; };
+		F322029D22BB009A0001D8C5 /* objc-accessors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A930D73876100392440 /* objc-accessors.mm */; };
+		F322029E22BB009A0001D8C5 /* objc-references.mm in Sources */ = {isa = PBXBuildFile; fileRef = 393CEABF0DC69E3E000B69DE /* objc-references.mm */; };
+		F322029F22BB009A0001D8C5 /* objc-os.mm in Sources */ = {isa = PBXBuildFile; fileRef = 831C85D40E10CF850066E64C /* objc-os.mm */; };
+		F32202A022BB009A0001D8C5 /* objc-probes.d in Sources */ = {isa = PBXBuildFile; fileRef = 87BB4E900EC39633005D08E1 /* objc-probes.d */; };
+		F32202A122BB009A0001D8C5 /* objc-file-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83BE02E30FCCB23400661494 /* objc-file-old.mm */; };
+		F32202A222BB009A0001D8C5 /* objc-block-trampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */; };
+		F32202A322BB009A0001D8C5 /* objc-msg-simulator-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 83B1A8BC0FF1AC0D0019EA5B /* objc-msg-simulator-i386.s */; };
+		F32202A422BB009A0001D8C5 /* objc-sel-table.s in Sources */ = {isa = PBXBuildFile; fileRef = 83EB007A121C9EC200B92C16 /* objc-sel-table.s */; };
+		F32202A522BB009A0001D8C5 /* objc-weak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39ABD72012F0B61800D1054C /* objc-weak.mm */; };
+		F32202A622BB009A0001D8C5 /* objc-msg-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 83D49E4E13C7C84F0057F1DD /* objc-msg-arm64.s */; };
+		F32202A722BB009A0001D8C5 /* NSObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9672F7ED14D5F488007CEC96 /* NSObject.mm */; };
+		F32202A822BB009A0001D8C5 /* objc-opt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83725F4914CA5BFA0014370E /* objc-opt.mm */; };
+		F32202A922BB009A0001D8C5 /* objc-cache-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 83F550DF155E030800E95D3B /* objc-cache-old.mm */; };
+		F32202AA22BB009A0001D8C5 /* objc-sel-old.mm in Sources */ = {isa = PBXBuildFile; fileRef = 834DF8B615993EE1002F2BC9 /* objc-sel-old.mm */; };
+		F32202AB22BB009A0001D8C5 /* objc-msg-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 83C9C3381668B50E00F4E544 /* objc-msg-simulator-x86_64.s */; };
+		F32202B522BB7ADF0001D8C5 /* TestBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = F32202B422BB7ADF0001D8C5 /* TestBackup.m */; };
 		F9BCC71B205C68E800DD9AFC /* objc-blocktramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 8379996D13CBAF6F007C2B5F /* objc-blocktramps-arm64.s */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +236,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC0620554660B00DB518D;
 			remoteInfo = objc;
+		};
+		F322024A22BB009A0001D8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BCC6CA205C68E800DD9AFC;
+			remoteInfo = "objc-trampolines";
 		};
 		F9BCC728205C6A0900DD9AFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -270,6 +375,13 @@
 		E8923D9C116AB2820071B552 /* objc-blocktramps-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-i386.s"; path = "runtime/objc-blocktramps-i386.s"; sourceTree = "<group>"; };
 		E8923D9D116AB2820071B552 /* objc-blocktramps-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-x86_64.s"; path = "runtime/objc-blocktramps-x86_64.s"; sourceTree = "<group>"; };
 		E8923DA0116AB2820071B552 /* objc-block-trampolines.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-block-trampolines.mm"; path = "runtime/objc-block-trampolines.mm"; sourceTree = "<group>"; };
+		F322016B22BA75370001D8C5 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		F322016C22BA75370001D8C5 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		F322016F22BA7CD80001D8C5 /* Test+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test+Category.h"; sourceTree = "<group>"; };
+		F322017022BA7CD80001D8C5 /* Test+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test+Category.m"; sourceTree = "<group>"; };
+		F32202B222BB009A0001D8C5 /* libobjc-ios.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libobjc-ios.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32202B322BB7ADF0001D8C5 /* TestBackup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBackup.h; sourceTree = "<group>"; };
+		F32202B422BB7ADF0001D8C5 /* TestBackup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBackup.m; sourceTree = "<group>"; };
 		F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libobjc-trampolines.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -282,6 +394,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D289988505E68E00004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32202AC22BB009A0001D8C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +493,7 @@
 				D2AAC0630554660B00DB518D /* libobjc.A.dylib */,
 				F9BCC727205C68E800DD9AFC /* libobjc-trampolines.dylib */,
 				5255259821C68E3C00072CE6 /* objc-test */,
+				F32202B222BB009A0001D8C5 /* libobjc-ios.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -382,6 +502,7 @@
 			isa = PBXGroup;
 			children = (
 				5255259A21C68E3C00072CE6 /* main.m */,
+				F322016E22BA75480001D8C5 /* Test */,
 			);
 			path = "objc-test";
 			sourceTree = "<group>";
@@ -544,6 +665,19 @@
 			name = "Project Headers";
 			sourceTree = "<group>";
 		};
+		F322016E22BA75480001D8C5 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F322016B22BA75370001D8C5 /* Test.h */,
+				F322016C22BA75370001D8C5 /* Test.m */,
+				F322016F22BA7CD80001D8C5 /* Test+Category.h */,
+				F322017022BA7CD80001D8C5 /* Test+Category.m */,
+				F32202B322BB7ADF0001D8C5 /* TestBackup.h */,
+				F32202B422BB7ADF0001D8C5 /* TestBackup.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		F9BCC72A205C6A1600DD9AFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -622,6 +756,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F322024B22BB009A0001D8C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F322024C22BB009A0001D8C5 /* ObjectiveC.apinotes in Headers */,
+				F322024D22BB009A0001D8C5 /* objc-locks.h in Headers */,
+				F322024E22BB009A0001D8C5 /* module.modulemap in Headers */,
+				F322024F22BB009A0001D8C5 /* hashtable.h in Headers */,
+				F322025022BB009A0001D8C5 /* hashtable2.h in Headers */,
+				F322025122BB009A0001D8C5 /* List.h in Headers */,
+				F322025222BB009A0001D8C5 /* reason.h in Headers */,
+				F322025322BB009A0001D8C5 /* maptable.h in Headers */,
+				F322025422BB009A0001D8C5 /* message.h in Headers */,
+				F322025522BB009A0001D8C5 /* objc-abi.h in Headers */,
+				F322025622BB009A0001D8C5 /* objc-api.h in Headers */,
+				F322025722BB009A0001D8C5 /* objc-auto.h in Headers */,
+				F322025822BB009A0001D8C5 /* tsd_private.h in Headers */,
+				F322025922BB009A0001D8C5 /* objc-class.h in Headers */,
+				F322025A22BB009A0001D8C5 /* objc-config.h in Headers */,
+				F322025B22BB009A0001D8C5 /* objc-exception.h in Headers */,
+				F322025C22BB009A0001D8C5 /* Block_private.h in Headers */,
+				F322025D22BB009A0001D8C5 /* pthread_machdep.h in Headers */,
+				F322025E22BB009A0001D8C5 /* dyld_priv.h in Headers */,
+				F322025F22BB009A0001D8C5 /* objc-file-old.h in Headers */,
+				F322026022BB009A0001D8C5 /* objc-shared-cache.h in Headers */,
+				F322026122BB009A0001D8C5 /* objc-file.h in Headers */,
+				F322026222BB009A0001D8C5 /* objc-locks-new.h in Headers */,
+				F322026322BB009A0001D8C5 /* objc-gdb.h in Headers */,
+				F322026422BB009A0001D8C5 /* objc-initialize.h in Headers */,
+				F322026522BB009A0001D8C5 /* objc-object.h in Headers */,
+				F322026622BB009A0001D8C5 /* objc-internal.h in Headers */,
+				F322026722BB009A0001D8C5 /* objc-load.h in Headers */,
+				F322026822BB009A0001D8C5 /* spinlock_private.h in Headers */,
+				F322026922BB009A0001D8C5 /* objc-loadmethod.h in Headers */,
+				F322026A22BB009A0001D8C5 /* objc-lockdebug.h in Headers */,
+				F322026B22BB009A0001D8C5 /* CrashReporterClient.h in Headers */,
+				F322026C22BB009A0001D8C5 /* _simple.h in Headers */,
+				F322026D22BB009A0001D8C5 /* objc-os.h in Headers */,
+				F322026E22BB009A0001D8C5 /* objc-private.h in Headers */,
+				F322026F22BB009A0001D8C5 /* objc-references.h in Headers */,
+				F322027022BB009A0001D8C5 /* objc-runtime-new.h in Headers */,
+				F322027122BB009A0001D8C5 /* objc-runtime-old.h in Headers */,
+				F322027222BB009A0001D8C5 /* objc-runtime.h in Headers */,
+				F322027322BB009A0001D8C5 /* objc-sel-set.h in Headers */,
+				F322027422BB009A0001D8C5 /* lock_private.h in Headers */,
+				F322027522BB009A0001D8C5 /* base_private.h in Headers */,
+				F322027622BB009A0001D8C5 /* objc-sync.h in Headers */,
+				F322027722BB009A0001D8C5 /* objc.h in Headers */,
+				F322027822BB009A0001D8C5 /* Object.h in Headers */,
+				F322027922BB009A0001D8C5 /* Protocol.h in Headers */,
+				F322027A22BB009A0001D8C5 /* runtime.h in Headers */,
+				F322027B22BB009A0001D8C5 /* objc-weak.h in Headers */,
+				F322027C22BB009A0001D8C5 /* NSObjCRuntime.h in Headers */,
+				F322027D22BB009A0001D8C5 /* NSObject.h in Headers */,
+				F322027E22BB009A0001D8C5 /* tsd.h in Headers */,
+				F322027F22BB009A0001D8C5 /* isa.h in Headers */,
+				F322028022BB009A0001D8C5 /* cpu_capabilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -663,6 +857,26 @@
 			productReference = D2AAC0630554660B00DB518D /* libobjc.A.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		F322024822BB009A0001D8C5 /* objc-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32202AF22BB009A0001D8C5 /* Build configuration list for PBXNativeTarget "objc-ios" */;
+			buildPhases = (
+				F322024B22BB009A0001D8C5 /* Headers */,
+				F322028122BB009A0001D8C5 /* Sources */,
+				F32202AC22BB009A0001D8C5 /* Frameworks */,
+				F32202AD22BB009A0001D8C5 /* Run Script (markgc) */,
+				F32202AE22BB009A0001D8C5 /* Run Script (symlink) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F322024922BB009A0001D8C5 /* PBXTargetDependency */,
+			);
+			name = "objc-ios";
+			productName = objc;
+			productReference = F32202B222BB009A0001D8C5 /* libobjc-ios.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		F9BCC6CA205C68E800DD9AFC /* objc-trampolines */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BCC724205C68E800DD9AFC /* Build configuration list for PBXNativeTarget "objc-trampolines" */;
@@ -696,17 +910,22 @@
 					837F67A81A771F63004D34FA = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					F322024822BB009A0001D8C5 = {
+						DevelopmentTeam = 2N62934Y28;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1DEB914E08733D8E0010E9CD /* Build configuration list for PBXProject "objc" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
+				ja,
+				fr,
+				Base,
+				de,
 			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* objc */;
 			projectDirPath = "";
@@ -716,6 +935,7 @@
 				837F67A81A771F63004D34FA /* objc-simulator */,
 				F9BCC6CA205C68E800DD9AFC /* objc-trampolines */,
 				5255259721C68E3C00072CE6 /* objc-test */,
+				F322024822BB009A0001D8C5 /* objc-ios */,
 			);
 		};
 /* End PBXProject section */
@@ -750,6 +970,35 @@
 			shellPath = /bin/sh;
 			shellScript = "cd \"${INSTALL_DIR}\"\n/bin/ln -s libobjc.A.dylib libobjc.dylib\n\nTBD_UPPER=`echo ${GENERATE_TEXT_BASED_STUBS} | tr a-z A-Z`\n\nif [ ${TBD_UPPER} = \"YES\" ] || [ ${TBD_UPPER} = \"TRUE\" ] || [ ${TBD_UPPER} = \"1\" ]; then\nGENERATE_TBD=1\nfi\n\nif [ ${GENERATE_TBD} ]; then\n    /bin/ln -s libobjc.A.tbd libobjc.tbd\nfi\n";
 		};
+		F32202AD22BB009A0001D8C5 /* Run Script (markgc) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "Modify the built dylib (mod_init_funcs and mod_term_funcs).";
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (markgc)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -x\n/usr/bin/xcrun -sdk macosx clang++ -Wall -mmacosx-version-min=10.12 -arch x86_64 -std=c++11 \"${SRCROOT}/markgc.cpp\" -o \"${BUILT_PRODUCTS_DIR}/markgc\"\n\"${BUILT_PRODUCTS_DIR}/markgc\" \"${BUILT_PRODUCTS_DIR}/libobjc.A.dylib\"\n";
+		};
+		F32202AE22BB009A0001D8C5 /* Run Script (symlink) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (symlink)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${INSTALL_DIR}\"\n/bin/ln -s libobjc.A.dylib libobjc.dylib\n\nTBD_UPPER=`echo ${GENERATE_TEXT_BASED_STUBS} | tr a-z A-Z`\n\nif [ ${TBD_UPPER} = \"YES\" ] || [ ${TBD_UPPER} = \"TRUE\" ] || [ ${TBD_UPPER} = \"1\" ]; then\nGENERATE_TBD=1\nfi\n\nif [ ${GENERATE_TBD} ]; then\n    /bin/ln -s libobjc.A.tbd libobjc.tbd\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -757,7 +1006,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F322017122BA7CD80001D8C5 /* Test+Category.m in Sources */,
+				F32202B522BB7ADF0001D8C5 /* TestBackup.m in Sources */,
 				5255259B21C68E3C00072CE6 /* main.m in Sources */,
+				F322016D22BA75370001D8C5 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,6 +1062,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F322028122BB009A0001D8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F322028222BB009A0001D8C5 /* hashtable2.mm in Sources */,
+				F322028322BB009A0001D8C5 /* maptable.mm in Sources */,
+				F322028422BB009A0001D8C5 /* objc-auto.mm in Sources */,
+				F322028522BB009A0001D8C5 /* objc-cache.mm in Sources */,
+				F322028622BB009A0001D8C5 /* objc-class-old.mm in Sources */,
+				F322028722BB009A0001D8C5 /* objc-class.mm in Sources */,
+				F322028822BB009A0001D8C5 /* objc-errors.mm in Sources */,
+				F322028922BB009A0001D8C5 /* objc-exception.mm in Sources */,
+				F322028A22BB009A0001D8C5 /* objc-file.mm in Sources */,
+				F322028B22BB009A0001D8C5 /* objc-initialize.mm in Sources */,
+				F322028C22BB009A0001D8C5 /* objc-layout.mm in Sources */,
+				F322028D22BB009A0001D8C5 /* objc-load.mm in Sources */,
+				F322028E22BB009A0001D8C5 /* objc-loadmethod.mm in Sources */,
+				F322028F22BB009A0001D8C5 /* objc-lockdebug.mm in Sources */,
+				F322029022BB009A0001D8C5 /* objc-runtime-new.mm in Sources */,
+				F322029122BB009A0001D8C5 /* objc-runtime-old.mm in Sources */,
+				F322029222BB009A0001D8C5 /* objc-runtime.mm in Sources */,
+				F322029322BB009A0001D8C5 /* objc-sel-set.mm in Sources */,
+				F322029422BB009A0001D8C5 /* objc-sel.mm in Sources */,
+				F322029522BB009A0001D8C5 /* objc-sync.mm in Sources */,
+				F322029622BB009A0001D8C5 /* objc-typeencoding.mm in Sources */,
+				F322029722BB009A0001D8C5 /* Object.mm in Sources */,
+				F322029822BB009A0001D8C5 /* Protocol.mm in Sources */,
+				F322029922BB009A0001D8C5 /* List.m in Sources */,
+				F322029A22BB009A0001D8C5 /* objc-msg-arm.s in Sources */,
+				F322029B22BB009A0001D8C5 /* objc-msg-i386.s in Sources */,
+				F322029C22BB009A0001D8C5 /* objc-msg-x86_64.s in Sources */,
+				F322029D22BB009A0001D8C5 /* objc-accessors.mm in Sources */,
+				F322029E22BB009A0001D8C5 /* objc-references.mm in Sources */,
+				F322029F22BB009A0001D8C5 /* objc-os.mm in Sources */,
+				F32202A022BB009A0001D8C5 /* objc-probes.d in Sources */,
+				F32202A122BB009A0001D8C5 /* objc-file-old.mm in Sources */,
+				F32202A222BB009A0001D8C5 /* objc-block-trampolines.mm in Sources */,
+				F32202A322BB009A0001D8C5 /* objc-msg-simulator-i386.s in Sources */,
+				F32202A422BB009A0001D8C5 /* objc-sel-table.s in Sources */,
+				F32202A522BB009A0001D8C5 /* objc-weak.mm in Sources */,
+				F32202A622BB009A0001D8C5 /* objc-msg-arm64.s in Sources */,
+				F32202A722BB009A0001D8C5 /* NSObject.mm in Sources */,
+				F32202A822BB009A0001D8C5 /* objc-opt.mm in Sources */,
+				F32202A922BB009A0001D8C5 /* objc-cache-old.mm in Sources */,
+				F32202AA22BB009A0001D8C5 /* objc-sel-old.mm in Sources */,
+				F32202AB22BB009A0001D8C5 /* objc-msg-simulator-x86_64.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9BCC6EF205C68E800DD9AFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -834,6 +1135,11 @@
 			target = D2AAC0620554660B00DB518D /* objc */;
 			targetProxy = 837F67AC1A771F6E004D34FA /* PBXContainerItemProxy */;
 		};
+		F322024922BB009A0001D8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BCC6CA205C68E800DD9AFC /* objc-trampolines */;
+			targetProxy = F322024A22BB009A0001D8C5 /* PBXContainerItemProxy */;
+		};
 		F9BCC729205C6A0900DD9AFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F9BCC6CA205C68E800DD9AFC /* objc-trampolines */;
@@ -851,6 +1157,7 @@
 				COPY_HEADERS_UNIFDEF_FLAGS = "-UBUILD_FOR_OSX";
 				"COPY_HEADERS_UNIFDEF_FLAGS[sdk=macosx*]" = "-DBUILD_FOR_OSX";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_CURRENT_VERSION = 228;
 				EXECUTABLE_PREFIX = lib;
 				GCC_CW_ASM_SYNTAX = NO;
@@ -876,6 +1183,11 @@
 					"-fdollars-in-identifiers",
 					"$(OTHER_CFLAGS)",
 				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_LIBCPP_VISIBLE=\"\"",
+				);
+				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
 					"-lc++abi",
 					"-Wl,-segalign,0x4000",
@@ -919,9 +1231,12 @@
 				PRODUCT_NAME = objc.A;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = ErrorsOnly;
 				UNEXPORTED_SYMBOLS_FILE = unexported_symbols;
+				VALID_ARCHS = "i386 x86_64";
+				WARNING_LDFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -958,6 +1273,11 @@
 					"-fdollars-in-identifiers",
 					"$(OTHER_CFLAGS)",
 				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_LIBCPP_VISIBLE=\"\"",
+				);
+				OTHER_LDFLAGS = "-no_warn_inits";
 				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
 					"-lc++abi",
 					"-Wl,-segalign,0x4000",
@@ -1001,19 +1321,23 @@
 				PRODUCT_NAME = objc.A;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = ErrorsOnly;
 				UNEXPORTED_SYMBOLS_FILE = unexported_symbols;
+				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wglobal-constructors",
 				);
+				WARNING_LDFLAGS = "";
 			};
 			name = Release;
 		};
 		1DEB914F08733D8E0010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1066,6 +1390,7 @@
 					"$(OTHER_CFLAGS)",
 					"-D_LIBCPP_VISIBLE=\"\"",
 				);
+				OTHER_LDFLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -1075,12 +1400,14 @@
 					"-Wno-deprecated-objc-isa-usage",
 					"-Wno-cast-of-sel-type",
 				);
+				WARNING_LDFLAGS = "";
 			};
 			name = Debug;
 		};
 		1DEB915008733D8E0010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1136,6 +1463,7 @@
 					"$(OTHER_CFLAGS)",
 					"-D_LIBCPP_VISIBLE=\"\"",
 				);
+				OTHER_LDFLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -1145,6 +1473,7 @@
 					"-Wno-deprecated-objc-isa-usage",
 					"-Wno-cast-of-sel-type",
 				);
+				WARNING_LDFLAGS = "";
 			};
 			name = Release;
 		};
@@ -1223,6 +1552,199 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F32202B022BB009A0001D8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				COPY_HEADERS_UNIFDEF_FLAGS = "-UBUILD_FOR_OSX";
+				"COPY_HEADERS_UNIFDEF_FLAGS[sdk=macosx*]" = "-DBUILD_FOR_OSX";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2N62934Y28;
+				DYLIB_CURRENT_VERSION = 228;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"OS_OBJECT_USE_OBJC=0",
+					LIBC_NO_LIBCRASHREPORTERCLIENT,
+				);
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(DSTROOT)/usr/include/**",
+					"$(DSTROOT)/usr/local/include/**",
+					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
+					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/Common",
+				);
+				INSTALL_PATH = /usr/lib;
+				IS_ZIPPERED = YES;
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
+				"ORDER_FILE[sdk=iphonesimulator*]" = "";
+				OTHER_CFLAGS = (
+					"-fdollars-in-identifiers",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_LIBCPP_VISIBLE=\"\"",
+				);
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
+					"-lc++abi",
+					"-Wl,-segalign,0x4000",
+					"-Xlinker",
+					"-sectalign",
+					"-Xlinker",
+					__DATA,
+					"-Xlinker",
+					__objc_data,
+					"-Xlinker",
+					0x1000,
+					"-Xlinker",
+					"-interposable_list",
+					"-Xlinker",
+					interposable.txt,
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"-lc++abi",
+					"-Xlinker",
+					"-interposable_list",
+					"-Xlinker",
+					interposable.txt,
+				);
+				"OTHER_LDFLAGS[sdk=macosx*]" = (
+					"-lc++abi",
+					"-Xlinker",
+					"-sectalign",
+					"-Xlinker",
+					__DATA,
+					"-Xlinker",
+					__objc_data,
+					"-Xlinker",
+					0x1000,
+					"-Xlinker",
+					"-interposable_list",
+					"-Xlinker",
+					interposable.txt,
+				);
+				OTHER_TAPI_FLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/objc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_TEXT_BASED_API = YES;
+				TAPI_VERIFY_MODE = ErrorsOnly;
+				UNEXPORTED_SYMBOLS_FILE = unexported_symbols;
+				VALID_ARCHS = "arm64 armv7s armv7 arm64e";
+				WARNING_LDFLAGS = "";
+			};
+			name = Debug;
+		};
+		F32202B122BB009A0001D8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = YES;
+				COPY_HEADERS_UNIFDEF_FLAGS = "-UBUILD_FOR_OSX";
+				"COPY_HEADERS_UNIFDEF_FLAGS[sdk=macosx*]" = "-DBUILD_FOR_OSX";
+				DEVELOPMENT_TEAM = 2N62934Y28;
+				DYLIB_CURRENT_VERSION = 228;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"OS_OBJECT_USE_OBJC=0",
+					LIBC_NO_LIBCRASHREPORTERCLIENT,
+				);
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(DSTROOT)/usr/include/**",
+					"$(DSTROOT)/usr/local/include/**",
+					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
+					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
+					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/Common",
+				);
+				INSTALL_PATH = /usr/lib;
+				IS_ZIPPERED = YES;
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
+				"ORDER_FILE[sdk=iphonesimulator*]" = "";
+				OTHER_CFLAGS = (
+					"-fdollars-in-identifiers",
+					"$(OTHER_CFLAGS)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_LIBCPP_VISIBLE=\"\"",
+				);
+				OTHER_LDFLAGS = "-no_warn_inits";
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=*]" = (
+					"-lc++abi",
+					"-Wl,-segalign,0x4000",
+					"-Xlinker",
+					"-sectalign",
+					"-Xlinker",
+					__DATA,
+					"-Xlinker",
+					__objc_data,
+					"-Xlinker",
+					0x1000,
+					"-Xlinker",
+					"-interposable_list",
+					"-Xlinker",
+					interposable.txt,
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = (
+					"-lc++abi",
+					"-Xlinker",
+					"-interposable_list",
+					"-Xlinker",
+					interposable.txt,
+				);
+				"OTHER_LDFLAGS[sdk=macosx*]" = (
+					"-lc++abi",
+					"-Xlinker",
+					"-sectalign",
+					"-Xlinker",
+					__DATA,
+					"-Xlinker",
+					__objc_data,
+					"-Xlinker",
+					0x1000,
+					"-Xlinker",
+					"-interposable_list",
+					"-Xlinker",
+					interposable.txt,
+				);
+				OTHER_TAPI_FLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/objc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_TEXT_BASED_API = YES;
+				TAPI_VERIFY_MODE = ErrorsOnly;
+				UNEXPORTED_SYMBOLS_FILE = unexported_symbols;
+				VALID_ARCHS = "arm64 armv7s armv7 arm64e";
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wglobal-constructors",
+				);
+				WARNING_LDFLAGS = "";
 			};
 			name = Release;
 		};
@@ -1337,6 +1859,15 @@
 			buildConfigurations = (
 				837F67AA1A771F63004D34FA /* Debug */,
 				837F67AB1A771F63004D34FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32202AF22BB009A0001D8C5 /* Build configuration list for PBXNativeTarget "objc-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32202B022BB009A0001D8C5 /* Debug */,
+				F32202B122BB009A0001D8C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
